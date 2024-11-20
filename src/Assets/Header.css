@@ -1,0 +1,33 @@
+/* Styles for the header */
+.header {
+    display: flex;
+    justify-content: space-between; /* Push items to the edges */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px; /* Add spacing */
+    background-color: #f4f4f4; /* Light background color */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Navigation styling */
+  .nav {
+    display: flex;
+    gap: 15px; /* Spacing between links */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
